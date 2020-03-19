@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find stability_detector)/launch/ssd_object_detector.launch" />
+  <include file="$(find stability_detector)/launch/stability_detector.launch" />
+</launch>
